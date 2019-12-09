@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class ConsultModel {
 
-    @SerializedName("Title")
+    @SerializedName("title")
     @Expose
     private String title;
     @SerializedName("content")

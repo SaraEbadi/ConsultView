@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Consult View</string>
+    <string name="htm_view">مشاهده</string>
+    <string name="read_it">مطالعه شد</string>
 </resources>

@@ -23,12 +23,14 @@
             android:layout_height="wrap_content"
             />
         <EditText
+            android:layout_marginRight="8dp"
+            android:textDirection="rtl"
             android:id="@+id/edtInputId"
             android:inputType="number"
             android:background="@drawable/background_edittext"
             android:layout_marginLeft="8dp"
             android:padding="5dp"
-            android:maxLength="3"
+            android:maxLength="6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -36,10 +38,12 @@
 
     <TextView
         android:id="@+id/txtTitle"
-        android:padding="30dp"
+        android:padding="8dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="عنوان آزمایشی برای قانون فرضی"
         />
 
     <androidx.recyclerview.widget.RecyclerView
