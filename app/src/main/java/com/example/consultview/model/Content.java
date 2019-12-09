@@ -12,9 +12,12 @@ public class Content {
     @SerializedName("isHtml")
     @Expose
     private Boolean isHtml;
-    @SerializedName("indentLevel")
+    //    @SerializedName("indentLevel")
+//    @Expose
+//    private Integer indentLevel;
+    @SerializedName("align")
     @Expose
-    private Integer indentLevel;
+    private String align;
     @SerializedName("isTitle")
     @Expose
     private Boolean isTitle;
@@ -35,12 +38,19 @@ public class Content {
         this.isHtml = isHtml;
     }
 
-    public Integer getIndentLevel() {
-        return indentLevel;
+    //    public Integer getIndentLevel() {
+//        return indentLevel;
+//    }
+//
+//    public void setIndentLevel(Integer indentLevel) {
+//        this.indentLevel = indentLevel;
+//    }
+    public String getAlign() {
+        return align;
     }
 
-    public void setIndentLevel(Integer indentLevel) {
-        this.indentLevel = indentLevel;
+    public void setAlign(String align) {
+        this.align = align;
     }
 
     public Boolean getIsTitle() {
